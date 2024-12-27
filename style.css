@@ -1,32 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+nav ul {
+    list-style: none;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-header {
-    background-color: #4CAF50;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
     color: white;
-    padding: 1em;
-    text-align: center;
+    text-decoration: none;
 }
 
-h1 {
-    font-size: 2em;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin: 1em 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 1em;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav ul li a:hover {
+    text-decoration: underline;
 }
